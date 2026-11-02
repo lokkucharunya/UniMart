@@ -2,7 +2,7 @@
 import { useEffect, useState, useCallback } from "react";
 import "./App.css";
 
-const API = "http://localhost:5000/api";
+const API = "https://unimart-backend-up1c.onrender.com/api";
 
 const initialProducts = [
   { id: 1, name: "PET", category: "Books", price: 250, oldPrice: 450, condition: "Good", image: "https://assets.cambridge.org/97811085/25213/large_cover/9781108525213i.jpg", color: "#f3e8d8" },
